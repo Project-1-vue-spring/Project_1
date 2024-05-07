@@ -1,4 +1,4 @@
-# project_1_vue_vite_2
+# project_1_front
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -20,6 +20,7 @@ npm install
 
 ```sh
 npm run dev
+npm run serve
 ```
 
 ### Compile and Minify for Production
