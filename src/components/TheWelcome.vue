@@ -1,3 +1,10 @@
+<!-- =============================================================
+
+프로젝트 생성시 기본으로 생성된 예시 컴포넌트,  
+
+icons vue 파일들 사용법 및 컴포넌트 사용법 참고, 추수 삭제 예정.
+
+================================================================-->
 <script setup>
 import WelcomeItem from './WelcomeItem.vue'
 import DocumentationIcon from './icons/IconDocumentation.vue'
