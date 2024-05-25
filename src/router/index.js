@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import Redirect from '../components/Redirect.vue'
 // 동적으로 import 하기위한 defineAsyncComponent
 // import { defineAsyncComponent } from 'vue'
 
@@ -27,9 +27,16 @@ for (const path in files) {
   }
 }
 routes.push({
-  path: `/`,
-  name: 'main',
-  component: HomeView
+  path: `/oauth2/redirect`,
+  name: 'redirect',
+  component: Redirect
+})
+
+// 최상위 루트 지정. 첫페이지 로드 main 으로 자동 리다이렉트.
+routes.push({
+  path: '/',
+  name: 'root',
+  redirect: '/main'
 })
 
 const router = createRouter({
