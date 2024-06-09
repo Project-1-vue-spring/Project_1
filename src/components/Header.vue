@@ -24,12 +24,14 @@
         <b-navbar-nav>
           <!-- 성우 테스트 메뉴 -->
           <b-nav-item-dropdown text="SUNGWOO" left>
-            <b-dropdown-item @click="goPage('login')">로그인_테스트</b-dropdown-item>
-            <b-dropdown-item @click="goPage('grid')">그리드_테스트</b-dropdown-item>
             <b-dropdown-item @click="goPage('search')">검색_테스트</b-dropdown-item>
+            <b-dropdown-item @click="goPage('mail')">메일_테스트</b-dropdown-item>
+            <b-dropdown-item @click="goPage('rest')">RestClient_테스트</b-dropdown-item>
+            <b-dropdown-item @click="goPage('grid')">그리드_테스트</b-dropdown-item>
+            <b-dropdown-item @click="goPage('login')">로그인_테스트</b-dropdown-item>
             <b-dropdown-item @click="goPage('home')">아이콘 및 컴포넌트_테스트</b-dropdown-item>
-            <b-dropdown-item href="#">test5</b-dropdown-item>
-            <b-dropdown-item href="#">test6</b-dropdown-item>
+            <b-dropdown-item href="#">test</b-dropdown-item>
+            <b-dropdown-item href="https://www.project-1.shop/main">test</b-dropdown-item>
           </b-nav-item-dropdown>
           <!-- 흥준 테스트 메뉴 -->
           <b-nav-item-dropdown text="HEUNGJUN" left>

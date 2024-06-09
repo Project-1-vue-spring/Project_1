@@ -13,8 +13,12 @@
     </div>
   </header> -->
 
+  <!-- 컴포넌트화 한 헤더 -->
   <Header />
+  <!-- 뷰라우터 이용한 페이지뷰 -->
   <router-view />
+  <!-- 공통 toast 띄워지게 하는 부분 -->
+  <b-container :toast="{ root: true }" fluid="sm" position="position-fixed"></b-container>
 </template>
 
 <script setup>
